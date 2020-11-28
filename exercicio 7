@@ -1,0 +1,39 @@
+programa
+{
+	/*PlayStation, oficialmente abreviado de PS, é uma série de consoles de videogame criados e
+desenvolvidos pela Sony Computer Entertainment, abrangendo a quinta, sexta, sétima e
+oitava gerações de videogames. A marca foi lançada pela primeira vez em 3 de dezembro de
+1994 no Japão. Recentemente foi lançado o PlayStation 5, seu preço atualmente é surreal!
+1.300 dólares (pesquise a cotação do dólar de hoje).
+Faça um programa que leia quanto dinheiro uma pessoa tem de economia em reais e em
+seguida:
+a. Escreva na tela quantos Dólares faltam para comprar um PS5.
+b. Escreva na tela quantos Reais faltam para comprar um PS5.
+c. Escreva na tela quantos livros Harry Potter e a Ordem da Fênix poderiam ser
+comprados com o mesmo valor.*/
+
+/*Hoje, 27/11/2020 o dólar está 5.34 reais*/
+	funcao inicio()
+	{
+		inteiro ps5_nospila = 6942
+		inteiro ps5 = 1300
+		inteiro economia = 0
+		inteiro economia_em_dolar = 0
+		inteiro haripater = 50
+
+		escreva("Quanto voce tem de economia?")
+		leia(economia)
+
+		economia_em_dolar = economia / 5.34
+
+		escreva("Faltam para voce comprar o ps5 ",1300 - economia_em_dolar , " Dolares!\n")
+
+		escreva("Ou em reais, faltam ", ps5_nospila - economia)
+
+		escreva("\nOu, se voce like harry potter, voce poderia comprar ", economia / 50, " livros da ordenho a fenix!")
+		
+
+
+		
+	}
+}
