@@ -1,0 +1,17 @@
+programa
+{
+	/*Escreva um programa que dados as variáveis chamadas mãe e filha, troque seus valores.
+Apresente os valores das variáveis mãe e filha após a troca.*/
+	funcao inicio()
+	{
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+		cadeia magicwall 
+
+		magicwall = mae
+		mae = filha
+		filha = magicwall
+
+		
+	}
+}
