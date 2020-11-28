@@ -1,0 +1,12 @@
+programa
+{
+	/*Faça um programa que peça o raio de um círculo, calcule e mostre sua área.*/
+	funcao inicio()
+	{
+		real r = 0
+		escreva("Qual o raio do circulo que voce quer calcular a área? : ")
+		leia(r)
+
+		escreva("A area desse circulo vai ser : ", 3.14 * r * r )
+	}
+}
