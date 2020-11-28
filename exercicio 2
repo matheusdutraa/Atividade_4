@@ -1,0 +1,33 @@
+programa
+{
+	/*Faça um programa dado quatro variáveis que (4 notas bimestrais), mostre a média.*/
+	funcao inicio()
+	{
+		real nota_1 = 0
+		real nota_2 = 0
+		real nota_3 = 0
+		real nota_4 = 0
+		real media_final = 0
+		real eu_falhei_TT = 0
+
+		escreva("qual sua nota do primeiro bimestre?")
+		leia(nota_1)
+
+		escreva("qual sua nota do segundo bimestre?")
+		leia(nota_2)
+
+		escreva("qual sua nota do terceiro bimestre?")
+		leia(nota_3)
+
+		escreva("qual sua nota do quarto bimestre?")
+		leia(nota_4)
+
+		media_final = nota_1 + nota_2 + nota_3 + nota_4  
+		eu_falhei_TT = media_final / 4
+
+		escreva("Sua média final é : ", eu_falhei_TT )
+
+		
+		
+	}
+}
