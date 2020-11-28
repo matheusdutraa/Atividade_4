@@ -1,0 +1,32 @@
+programa
+{
+	/*O Estádio Jornalista Mário Filho, mais conhecido como Maracanã,
+ou carinhosamente como Maraca, é um estádio de futebol localizado
+na Zona Norte da cidade brasileira do Rio de Janeiro, inaugurado em
+1950.
+Faça um algoritmo que dadas as medidas de comprimento e largura,
+calcule:
+a. A área do gramado.
+b. O dobro da área.
+c. O dobro da área em cm*/
+	funcao inicio()
+	{
+		/*professor, não sei se é uma pegadinha, ou se o sr se confundiu, mas na letra "A" se pede a area do gramado, e a area do gramado do maracanã vai ser
+		igual a qualquer um estadio regulamentado pela fifa, então nao fazeria diferença voce colocar qualquer outro estado, regulamentado. Talvez sua intenção fosse
+		calcular o tamanho do maracanã e não do gramado, mas acabou se confundido ?*/
+
+		inteiro comp = 105
+		inteiro larg = 68
+		inteiro area_do_gramado = 0
+		inteiro dobro_da_area = 0
+		inteiro dobro_da_area_em_cm = 0
+
+		area_do_gramado = comp * larg
+
+		dobro_da_area = area_do_gramado * 2
+
+		dobro_da_area_em_cm = dobro_da_area * 100
+
+		
+	}
+}
