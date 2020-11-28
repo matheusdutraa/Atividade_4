@@ -1,0 +1,35 @@
+programa
+{
+	/*Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.*/
+	funcao inicio()
+	{
+		inteiro sudden = 0
+
+		escreva("Olá, gurí(a) que quer colocar na prova de matemática, diga o número que voce quer saber a tabuada !!")
+		leia(sudden) 
+
+		escreva(sudden, " X 0 = ", sudden * 0)
+		escreva("\n")
+		escreva(sudden, " X 1 = ", sudden * 1)
+		escreva("\n")
+		escreva(sudden, " X 2 = ", sudden * 2)
+		escreva("\n")
+		escreva(sudden, " X 3 = ", sudden * 3)
+		escreva("\n")
+		escreva(sudden, " X 4 = ", sudden * 4)
+		escreva("\n")
+		escreva(sudden, " X 5 = ", sudden * 5)
+		escreva("\n")
+		escreva(sudden, " X 6 = ", sudden * 6)
+		escreva("\n")
+		escreva(sudden, " X 7 = ", sudden * 7)
+		escreva("\n")
+		escreva(sudden, " X 8 = ", sudden * 8)
+		escreva("\n")
+		escreva(sudden, " X 9 = ", sudden * 9)
+		escreva("\n")
+		escreva(sudden, " X 10 = ", sudden * 10)
+
+		
+	}
+}
